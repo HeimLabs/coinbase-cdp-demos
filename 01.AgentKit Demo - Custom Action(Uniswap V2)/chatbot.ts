@@ -1,19 +1,14 @@
 import {
-    AgentKit,
-    CdpWalletProvider,
-    wethActionProvider,
-    walletActionProvider,
-    erc20ActionProvider,
-    erc721ActionProvider,
-    cdpApiActionProvider,
-    cdpWalletActionProvider,
-    pythActionProvider,
-    openseaActionProvider,
-    alloraActionProvider,
-    ActionProvider,
-    Network,
-    CreateAction,
-  } from "@coinbase/agentkit";
+  AgentKit,
+  CdpWalletProvider,
+  cdpApiActionProvider,
+  walletActionProvider,
+  erc20ActionProvider,
+  cdpWalletActionProvider,
+  ActionProvider,
+  Network,
+  CreateAction,
+} from "@coinbase/agentkit";
   import { getLangChainTools } from "@coinbase/agentkit-langchain";
   import { HumanMessage } from "@langchain/core/messages";
   import { MemorySaver } from "@langchain/langgraph";
@@ -219,11 +214,8 @@ import {
       const agentkit = await AgentKit.from({
         walletProvider,
         actionProviders: [
-          wethActionProvider(),
-          pythActionProvider(),
           walletActionProvider(),
           erc20ActionProvider(),
-          erc721ActionProvider(),
           cdpApiActionProvider({
             apiKeyName: process.env.CDP_API_KEY_NAME,
             apiKeyPrivateKey: process.env.CDP_API_KEY_PRIVATE_KEY,
@@ -232,17 +224,6 @@ import {
             apiKeyName: process.env.CDP_API_KEY_NAME,
             apiKeyPrivateKey: process.env.CDP_API_KEY_PRIVATE_KEY,
           }),
-          // Only add OpenSea provider if API key is configured
-          ...(process.env.OPENSEA_API_KEY
-            ? [
-                openseaActionProvider({
-                  apiKey: process.env.OPENSEA_API_KEY,
-                  networkId: walletProvider.getNetwork().networkId,
-                  privateKey: await (await walletProvider.getWallet().getDefaultAddress()).export(),
-                }),
-              ]
-            : []),
-          alloraActionProvider(),
           // Add our new Uniswap V2 action provider
           uniswapV2ActionProvider(),
         ],
