@@ -132,7 +132,7 @@ Check the console output for detailed logs on:
 
 ## License
 
-ISC License (as specified in package.json)
+This project is licensed under the terms specified in the package.json file.
 
 ---
 
