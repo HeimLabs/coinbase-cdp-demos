@@ -1,0 +1,39 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Build outputs
+dist/
+build/
+*.tsbuildinfo
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# XMTP database files
+*.db3
+*.db3-shm
+*.db3-wal
+*.db3.sqlcipher_salt
+
+# Logs
+logs
+*.log
+
+# Cache
+.cache/
+.npm
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
