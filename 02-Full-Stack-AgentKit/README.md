@@ -2,8 +2,6 @@
 
 A sophisticated full stack AI-powered agent that enables conversational interactions to perform Uniswap V2 token swaps on the Base Sepolia testnet. This project was bootstrapped with `create-onchain-agent` by Coinbase's AgentKit and demonstrates how to extend AgentKit with custom action providers for DeFi protocols.
 
-![Uniswap V2 Agent](https://docs.uniswap.org/assets/images/logo-69f6e7de3b22669193e963d553b7f4fc.svg)
-
 ## 🌟 Features
 
 - **Full Stack Implementation**: Complete solution with Next.js frontend and backend API routes
@@ -151,7 +149,7 @@ npm run lint
 
 ## Additional Resources
 
-- [AgentKit Documentation](https://docs.developer.coinbase.com/base/agentkit/)
+- [AgentKit Documentation](https://docs.cdp.coinbase.com/agentkit/docs/welcome)
 - [Coinbase Developer Platform](https://docs.cdp.coinbase.com/)
 - [Uniswap V2 Documentation](https://docs.uniswap.org/contracts/v2/overview)
 - [Next.js Documentation](https://nextjs.org/docs)

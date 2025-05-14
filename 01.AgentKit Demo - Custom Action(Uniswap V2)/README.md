@@ -2,8 +2,6 @@
 
 A command-line interface (CLI) chatbot powered by Coinbase's AgentKit that demonstrates how to implement custom blockchain actions. This project showcases a custom Uniswap V2 action provider for swapping ETH to USDC on the Base Sepolia testnet.
 
-![AgentKit CLI Chatbot](https://docs.developer.coinbase.com/base/docs/images/basic/agentkit.png)
-
 ## 🌟 Features
 
 - **CLI Interface**: Interactive command-line interface with both chat and autonomous modes
@@ -175,7 +173,7 @@ async myCustomAction(
 
 ## 📚 Additional Resources
 
-- [AgentKit Documentation](https://docs.developer.coinbase.com/base/agentkit/)
+- [AgentKit Documentation](https://docs.cdp.coinbase.com/agentkit/docs/welcome)
 - [Coinbase Developer Platform](https://docs.cdp.coinbase.com/)
 - [Uniswap V2 Documentation](https://docs.uniswap.org/contracts/v2/overview)
 - [LangChain Documentation](https://js.langchain.com/)

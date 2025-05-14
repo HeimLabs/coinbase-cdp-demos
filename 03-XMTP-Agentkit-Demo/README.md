@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project demonstrates the integration of [XMTP](https://xmtp.org/) (Extensible Message Transport Protocol) with Coinbase [AgentKit](https://docs.developer.coinbase.com/base/agentkit/) to create an AI-powered DeFi payment agent. The agent can interact with users via XMTP messaging to help manage crypto assets, check balances, and process payments on the blockchain.
+This project demonstrates the integration of [XMTP](https://xmtp.org/) (Extensible Message Transport Protocol) with Coinbase [AgentKit](https://docs.cdp.coinbase.com/agentkit/docs/welcome) to create an AI-powered DeFi payment agent. The agent can interact with users via XMTP messaging to help manage crypto assets, check balances, and process payments on the blockchain.
 
 ## Features
 
