@@ -45,6 +45,19 @@ This project demonstrates the integration of XMTP (Extensible Message Transport 
 
 [View Demo](/03-XMTP-Agentkit-Demo)
 
+### 4. CDP Agent - Automated On-Chain Actions
+
+An autonomous Node.js agent that uses the Coinbase Developer Platform (CDP) SDK to provision accounts on Base Sepolia, monitor Ethereum prices via CoinGecko, and trigger automated on-chain actions (e.g., USDC transfer) when predefined price thresholds are met.
+
+**Key Features:**
+- Automated EOA & Smart Account creation using CDP SDK.
+- Testnet ETH funding for Smart Accounts via CDP Faucet.
+- Scheduled ETH price monitoring (CoinGecko API & `node-cron`).
+- Conditional on-chain transactions (e.g., USDC transfer on Base Sepolia).
+- Built with TypeScript, configured via environment variables.
+
+[View Demo](04-CDP-Agent)
+
 ## Getting Started
 
 Each demo project contains its own README with detailed setup and usage instructions. To get started:
@@ -62,6 +75,8 @@ Each demo project contains its own README with detailed setup and usage instruct
    cd 02-Full-Stack-AgentKit
    # OR
    cd 03-XMTP-Agentkit-Demo
+   # OR
+   cd 04-CDP-Agent
    ```
 
 3. Follow the project-specific README for detailed setup instructions.
