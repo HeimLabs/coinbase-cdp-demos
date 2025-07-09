@@ -56,9 +56,6 @@ Edit the `.env` file and add your credentials:
 # Server Configuration
 PORT=3001
 
-# Wallet Private Key (for signing transactions)
-PRIVATE_KEY=your_private_key_here
-
 # Coinbase Developer Platform API Keys
 CDP_API_KEY_ID=your_cdp_api_key_id
 CDP_API_KEY_SECRET=your_cdp_api_key_secret
