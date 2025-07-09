@@ -239,9 +239,8 @@ console.log(response.data);
 
 ## 📖 Additional Resources
 
-- [x402 Protocol Documentation](https://x402.org/docs)
-- [x402-express GitHub](https://github.com/x402-protocol/x402-express)
-- [x402-axios GitHub](https://github.com/x402-protocol/x402-axios)
+- [x402 Protocol Documentation](https://x402.org)
+- [x402 GitHub](https://github.com/coinbase/x402)
 - [Coinbase Developer Platform](https://docs.cdp.coinbase.com/)
 
 ## 🔒 Security Notes

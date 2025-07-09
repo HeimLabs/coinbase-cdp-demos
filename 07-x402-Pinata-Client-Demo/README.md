@@ -247,7 +247,7 @@ For production use, consider:
 ## 📖 Additional Resources
 
 - [Pinata Documentation](https://docs.pinata.cloud/)
-- [x402 Protocol Documentation](https://x402.org/docs)
+- [x402 Protocol Documentation](https://x402.org)
 - [IPFS Documentation](https://docs.ipfs.tech/)
 - [Coinbase Developer Platform](https://docs.cdp.coinbase.com/)
 - [Viem Documentation](https://viem.sh/)

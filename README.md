@@ -168,7 +168,6 @@ The following prerequisites are common across most demos:
 ## Resources
 
 - [Coinbase Developer Platform Documentation](https://docs.cdp.coinbase.com/)
-- [AgentKit Documentation](https://docs.cdp.coinbase.com/agentkit/docs/welcome)
 - [Base Network](https://docs.base.org/)
 
 ## License

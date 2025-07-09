@@ -379,7 +379,7 @@ await client.connect(transport);
 ## 📖 Additional Resources
 
 - [Model Context Protocol Documentation](https://modelcontextprotocol.io/)
-- [x402 Protocol Documentation](https://x402.org/docs)
+- [x402 Protocol Documentation](https://x402.org)
 - [Pinata Documentation](https://docs.pinata.cloud/)
 - [Coinbase Developer Platform](https://docs.cdp.coinbase.com/)
 - [Claude Desktop MCP Guide](https://docs.anthropic.com/claude/docs/mcp)

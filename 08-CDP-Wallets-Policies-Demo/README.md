@@ -321,7 +321,7 @@ For production use, consider:
 
 ## 📖 Additional Resources
 
-- [CDP Policies Documentation](https://docs.cdp.coinbase.com/wallet-api/docs/policies)
+- [CDP Policies Documentation](https://docs.cdp.coinbase.com/wallet-api/v2/using-the-wallet-api/policies)
 - [CDP SDK Documentation](https://docs.cdp.coinbase.com/cdp-sdk/docs/welcome)
 - [Base Sepolia Documentation](https://docs.base.org/tools/network-faucets)
 - [Viem Documentation](https://viem.sh/)
