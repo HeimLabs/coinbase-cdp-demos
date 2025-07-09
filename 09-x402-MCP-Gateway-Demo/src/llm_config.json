@@ -1,0 +1,11 @@
+{
+    "mcpServers": {
+      "x402-mcp-gateway": {
+        "command": "npx",
+        "args": [
+          "ts-node",
+          "/path/to/mcp-server.ts"
+        ]
+      }
+    }
+}
