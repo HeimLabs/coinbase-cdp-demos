@@ -123,6 +123,21 @@ A comprehensive demonstration of the x402 payment protocol with MCP (Model Conte
 
 [View Demo](/09-x402-MCP-Gateway-Demo)
 
+### 10. CDP Swap API Demo
+
+A comprehensive demonstration of CDP's token swapping capabilities on Base mainnet. This project shows both the recommended all-in-one approach and the advanced create-then-execute pattern for token swapping.
+
+**Key Features:**
+- Token swapping between ERC20 tokens (WETH to USDC example)
+- Dual approaches: All-in-one pattern (recommended) and create-then-execute pattern
+- Automatic allowance management for ERC20 tokens
+- Slippage protection with configurable tolerance
+- Real-time transaction monitoring and confirmation
+- Full TypeScript implementation
+
+[View Demo](/10-CDP-SwapAPI-Demo)
+
+
 ## Getting Started
 
 Each demo project contains its own README with detailed setup and usage instructions. To get started:
@@ -152,6 +167,8 @@ Each demo project contains its own README with detailed setup and usage instruct
    cd 08-CDP-Wallets-Policies-Demo
    # OR
    cd 09-x402-MCP-Gateway-Demo
+   # OR
+   cd 10-CDP-SwapAPI-Demo
    ```
 
 3. Follow the project-specific README for detailed setup instructions.
