@@ -5,14 +5,15 @@
   "main": "chatbot.ts",
   "scripts": {
     "start": "ts-node chatbot.ts",
-    "dev": "nodemon --exec ts-node chatbot.ts"
+    "dev": "nodemon --exec ts-node chatbot.ts",
+    "dev2": "nodemon --exec ts-node bot.ts"
   },
   "dependencies": {
-    "@coinbase/agentkit": "^0.3.0",
-    "@coinbase/agentkit-langchain": "^0.3.0",
+    "@coinbase/agentkit": "^0.0.0-nightly-20250725210423",
+    "@coinbase/agentkit-langchain": "^0.2.3-nightly.20250327.57",
+    "@langchain/core": "^0.3.19",
     "@langchain/langgraph": "^0.2.21",
     "@langchain/openai": "^0.3.14",
-    "@langchain/core": "^0.3.19",
     "dotenv": "^16.4.5",
     "zod": "^3.22.4"
   },
@@ -21,4 +22,4 @@
     "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   }
-} 
+}

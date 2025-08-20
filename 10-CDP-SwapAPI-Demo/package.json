@@ -16,6 +16,7 @@
   "type": "commonjs",
   "dependencies": {
     "@coinbase/cdp-sdk": "^1.22.0",
+    "@coinbase/coinbase-sdk": "^0.25.0",
     "dotenv": "^17.0.1",
     "viem": "^2.31.6"
   },

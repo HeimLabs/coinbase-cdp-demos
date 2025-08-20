@@ -137,6 +137,33 @@ A comprehensive demonstration of CDP's token swapping capabilities on Base mainn
 
 [View Demo](/10-CDP-SwapAPI-Demo)
 
+### 11. CDP Paymaster Demo - Gas-Sponsored NFT Minting
+
+A Next.js application demonstrating the power of Coinbase Paymaster for frictionless onboarding. This project showcases gas-sponsored NFT minting, allowing Smart Wallet users to mint NFTs without paying transaction fees.
+
+**Key Features:**
+- Gas-sponsored transactions for Smart Wallet users via Coinbase Paymaster
+- Smart Wallet detection with differentiated UX for Smart Wallet vs EOA users
+- OnchainKit integration with modern UI/UX
+- Base Sepolia testnet with safe testing environment
+- Real-time transaction monitoring and confirmation tracking
+
+[View Demo](/11-CDP-Paymaster-Demo)
+
+### 12. CDP MiniKit Demo - Farcaster Mini App Showcase
+
+A comprehensive MiniKit demonstration showcasing Coinbase Developer Platform (CDP) features within a Farcaster mini app. This project demonstrates Base Accounts (Smart Wallets), gas-sponsored transactions, onchain identity, notifications, and more.
+
+**Key Features:**
+- Complete CDP showcase with all major features in one mini app
+- Base Account integration with seamless Smart Wallet connection
+- Gas-sponsored POA NFT minting via Coinbase Paymaster
+- Onchain identity with ENS name resolution, avatars, and badges
+- Farcaster Frame integration with account association
+- Background notifications using Redis-backed webhook system
+
+[View Demo](/12-Minikit-Demo)
+
 
 ## Getting Started
 
@@ -169,6 +196,10 @@ Each demo project contains its own README with detailed setup and usage instruct
    cd 09-x402-MCP-Gateway-Demo
    # OR
    cd 10-CDP-SwapAPI-Demo
+   # OR
+   cd 11-CDP-Paymaster-Demo
+   # OR
+   cd 12-Minikit-Demo
    ```
 
 3. Follow the project-specific README for detailed setup instructions.

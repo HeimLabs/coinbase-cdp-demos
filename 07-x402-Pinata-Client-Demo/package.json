@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
-    "start": "node dist/x402-pinata.js"
+    "start1": "node dist/x402-pinata.js",
+    "start": "node dist/x402-pinata-shorts.js"
   },
   "type": "module",
   "keywords": [],

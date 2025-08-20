@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node dist/x402Server.js",
-    "client": "node dist/x402Client.js",
+    "start1": "node dist/x402Server.js",
+    "start": "node dist/x402SimplifiedServer.js",
     "build": "tsc"
   },
   "keywords": [],
