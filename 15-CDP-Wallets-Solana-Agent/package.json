@@ -1,0 +1,23 @@
+{
+  "name": "cdp-wallets-solana-agent",
+  "version": "1.0.0",
+  "description": "Autonomous agent demonstrating Coinbase Developer Platform's Solana integration with account management, transactions, and sponsored operations",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "start": "node dist/agent.js",
+    "solana": "node dist/solana.js",
+    "dev": "tsc && node dist/agent.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@coinbase/cdp-sdk": "^1.35.0",
+    "@solana/web3.js": "^1.98.4",
+    "dotenv": "^17.2.1"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "typescript": "^5.9.2"
+  }
+}
