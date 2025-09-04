@@ -164,6 +164,48 @@ A comprehensive MiniKit demonstration showcasing Coinbase Developer Platform (CD
 
 [View Demo](/12-Minikit-Demo)
 
+### 13. CDP Staking Demo - ETH Staking Interface
+
+A Next.js application demonstrating ETH staking capabilities using the Coinbase Developer Platform SDK. This project showcases how to build a modern staking interface with real-time balance tracking and staking operations.
+
+**Key Features:**
+- ETH staking and unstaking operations
+- Real-time staking rewards tracking
+- Wallet integration with CDP SDK
+- Modern React UI with Tailwind CSS
+- ConnectKit wallet connection
+- Base network integration
+
+[View Demo](/13-CDP-Staking-Demo)
+
+### 14. CDP Embedded Wallets Demo - Passwordless Authentication
+
+A comprehensive tutorial and demonstration of Coinbase Developer Platform (CDP) Embedded Wallets featuring modern authentication, smart accounts, gasless transactions, and seamless crypto experiences.
+
+**Key Features:**
+- Passwordless email-based authentication without seed phrases
+- Smart Accounts (ERC-4337) with account abstraction capabilities
+- Gasless token transfers on Base Sepolia
+- Built-in faucet integration for testnet funding
+- Modern React UI with TypeScript
+- Real-time balance monitoring
+
+[View Demo](/14-Embedded-Wallets-Demo)
+
+### 15. CDP Wallets Solana Agent - Cross-Chain Operations
+
+An autonomous agent demonstrating Coinbase Developer Platform's Solana integration capabilities. This project showcases account provisioning, funding, transactions, and advanced Solana features like batch operations and sponsored transactions.
+
+**Key Features:**
+- Automated Solana account creation and management via CDP
+- SOL faucet integration for testnet funding
+- Standard and batched SOL transfers
+- Sponsored transactions for gasless UX
+- Off-chain message signing capabilities
+- TypeScript implementation with full Solana Web3.js integration
+
+[View Demo](/15-CDP-Wallets-Solana-Agent)
+
 
 ## Getting Started
 
@@ -200,6 +242,12 @@ Each demo project contains its own README with detailed setup and usage instruct
    cd 11-CDP-Paymaster-Demo
    # OR
    cd 12-Minikit-Demo
+   # OR
+   cd 13-CDP-Staking-Demo
+   # OR
+   cd 14-Embedded-Wallets-Demo
+   # OR
+   cd 15-CDP-Wallets-Solana-Agent
    ```
 
 3. Follow the project-specific README for detailed setup instructions.
