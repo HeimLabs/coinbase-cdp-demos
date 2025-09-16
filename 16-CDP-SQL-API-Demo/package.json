@@ -1,0 +1,31 @@
+{
+  "name": "cdp-sql-tutorial",
+  "version": "1.0.0",
+  "description": "Tutorial: query onchain data on Base using Coinbase CDP SQL API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "latest-block": "node index.js latest-block",
+    "whales": "node index.js whales",
+    "whales:1k": "node index.js whales 1000",
+    "whales:10k": "node index.js whales 10000",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "coinbase",
+    "cdp",
+    "sql",
+    "base",
+    "onchain",
+    "blockchain",
+    "demo",
+    "tutorial"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "dotenv": "^17.2.1"
+  }
+}

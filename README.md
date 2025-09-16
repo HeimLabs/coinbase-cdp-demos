@@ -207,6 +207,20 @@ An autonomous agent demonstrating Coinbase Developer Platform's Solana integrati
 [View Demo](/15-CDP-Wallets-Solana-Agent)
 
 
+### 16. CDP SQL API Demo — Onchain Data via SQL
+
+Query onchain data from the Base network using the Coinbase Developer Platform SQL API with a simple Node.js CLI. Includes latest block query and a whale-watching example for large USDC transfers.
+
+**Key Features:**
+- Query onchain data with CDP SQL API
+- Latest block details on Base
+- Whale-watching for recent USDC transfers
+- Simple CLI with configurable sample limit
+- dotenv-based configuration
+
+[View Demo](/16-CDP-SQL-API-Demo)
+
+
 ## Getting Started
 
 Each demo project contains its own README with detailed setup and usage instructions. To get started:
@@ -248,6 +262,8 @@ Each demo project contains its own README with detailed setup and usage instruct
    cd 14-Embedded-Wallets-Demo
    # OR
    cd 15-CDP-Wallets-Solana-Agent
+   # OR
+   cd 16-CDP-SQL-API-Demo
    ```
 
 3. Follow the project-specific README for detailed setup instructions.
