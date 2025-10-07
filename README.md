@@ -221,6 +221,35 @@ Query onchain data from the Base network using the Coinbase Developer Platform S
 [View Demo](/16-CDP-SQL-API-Demo)
 
 
+### 17. Base Accounts Demo — Smart Wallet UX Tutorial
+
+A Next.js tutorial showcasing Base Account features: SIWE sign-in, gas sponsorship via Paymaster, batch transactions, sub-accounts, spend permissions (USDC on Base mainnet), typed data signing, and Base Pay one-tap payments.
+
+**Key Features:**
+- Sign in with Base (SIWE)
+- Gas Sponsorship (Paymaster)
+- Batch Transactions (EIP-5792 v2)
+- Sub-Accounts (create/list)
+- Spend Permissions (USDC on Base mainnet)
+- Typed Data Signing (EIP-712)
+- Base Pay integration (testnet)
+
+[View Demo](/17-Base-Accounts-Demo)
+
+
+### 18. CDP Onchain Automation — Autonomous Fee Collector
+
+An autonomous Node.js agent that monitors Base mainnet USDC transfers with the CDP SQL API and forwards a 5% platform fee to a treasury account. Includes provisioning of managed EVM accounts and periodic balance reporting.
+
+**Key Features:**
+- Managed EVM account provisioning
+- SQL API monitoring of USDC Transfer events
+- Automatic 5% fee forwarding
+- Treasury balance reporting
+
+[View Demo](/18-CDP-Onchain-Automation)
+
+
 ## Getting Started
 
 Each demo project contains its own README with detailed setup and usage instructions. To get started:
@@ -264,6 +293,10 @@ Each demo project contains its own README with detailed setup and usage instruct
    cd 15-CDP-Wallets-Solana-Agent
    # OR
    cd 16-CDP-SQL-API-Demo
+   # OR
+   cd 17-Base-Accounts-Demo
+   # OR
+   cd 18-CDP-Onchain-Automation
    ```
 
 3. Follow the project-specific README for detailed setup instructions.
