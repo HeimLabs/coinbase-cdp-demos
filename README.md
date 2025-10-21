@@ -250,6 +250,23 @@ An autonomous Node.js agent that monitors Base mainnet USDC transfers with the C
 [View Demo](/18-CDP-Onchain-Automation)
 
 
+### 19. Social Trivia MiniApp - Full MiniKit Tutorial
+
+A comprehensive Farcaster MiniApp showcasing the complete MiniKit and OnchainKit integration. This one-shot tutorial demonstrates building a fully functional social trivia game with wallet connection, onchain score saving, and Farcaster social features.
+
+**Key Features:**
+- Complete MiniKit integration with Farcaster Frames
+- OnchainKit Wallet connection with Base Account support
+- Gas-sponsored onchain transactions via Paymaster
+- Trivia game with blockchain/Web3 questions
+- Compose cast integration for sharing results
+- Background notifications with Redis/Upstash
+- Profile viewing and social features
+- Modern React UI with Tailwind CSS
+
+[View Demo](/19-One-Shot-Full-Miniapp-Tutorial)
+
+
 ## Getting Started
 
 Each demo project contains its own README with detailed setup and usage instructions. To get started:
@@ -297,6 +314,8 @@ Each demo project contains its own README with detailed setup and usage instruct
    cd 17-Base-Accounts-Demo
    # OR
    cd 18-CDP-Onchain-Automation
+   # OR
+   cd 19-One-Shot-Full-Miniapp-Tutorial
    ```
 
 3. Follow the project-specific README for detailed setup instructions.
